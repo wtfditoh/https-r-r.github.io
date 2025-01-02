@@ -14,7 +14,7 @@ function updateTime() {
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    // Exibindo o contador no site
+    // Exibindo o contador no site com a interpolação de strings correta
     document.getElementById("time").innerHTML = `years anos,{months} meses, days dias,{hours} horas, minutes minutos,{seconds} segundos`;
 }
 
