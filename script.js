@@ -1,4 +1,3 @@
-```
 const startDate = new Date("2024-08-15T09:15:00").getTime();
 
 // Função para atualizar o contador
@@ -20,4 +19,3 @@ function updateTime() {
 
 // Atualizar o contador a cada segundo
 setInterval(updateTime, 1000);
-```
